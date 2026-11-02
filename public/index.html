@@ -1,43 +1,69 @@
 <!DOCTYPE html>
-<html>
-<head lang="en">
+<html lang="en">
+<head>
   <meta charset="utf-8">
-  <link rel="canonical" href="https://serkandurusoy.com/" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>Serkan Durusoy</title>
-  <meta name="description" content="Serkan Durusoy">
+  <meta name="description" content="Serkan Durusoy. A generalist engineering leader, mentor, and facilitator for 20+ years.">
+  <link rel="canonical" href="https://serkandurusoy.com/">
+
+  <meta name="color-scheme" content="dark">
+  <meta name="theme-color" content="#1f1915">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://serkandurusoy.com/">
+  <meta property="og:title" content="Serkan Durusoy">
+  <meta property="og:description" content="A generalist engineering leader, mentor, and facilitator for 20+ years.">
 
   <link rel="icon" href="/favicon.svg" type="image/svg+xml">
   <link rel="icon" href="/favicon.ico" sizes="32x32">
   <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 
   <style>
-    body {
-      line-height: 1.5em;
+    :root {
+      color-scheme: dark;
+      --bg: #1f1915;
+      --fg: #c7c3c0;
+      --muted: #8d8885;
     }
 
-    main {
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
+    * { box-sizing: border-box; }
+    html, body { height: 100%; margin: 0; }
 
-      padding: 15px 15px;
-      color: #666;
-      text-align: center;
-      font-size: 16px;
-      width: 300px;
+    body {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 32px 24px;
+      background: var(--bg);
+      color: var(--fg);
+      font: 17px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    main { max-width: 46rem; width: 100%; }
+
+    p {
+      margin: 0 0 2rem;
+      font-size: clamp(1.5rem, 3.6vw, 2.25rem);
+      line-height: 1.3;
+      font-weight: 500;
+      letter-spacing: -0.02em;
+      text-wrap: balance;
+    }
+
+    h1 {
+      margin: 0;
+      color: var(--muted);
+      font-size: 1rem;
+      font-weight: 500;
     }
   </style>
-
 </head>
 <body>
-
 <main>
-      <p>Hey there, I am Serkan. A generalist engineering leader, mentor, and facilitator for 20+ years; I build engineering teams, coach developers, groom leaders, and ship products.</p>
+  <p>Hey there, I am Serkan. A generalist engineering leader, mentor, and facilitator for 20+ years; I build engineering teams, coach developers, groom leaders, and ship products.</p>
+  <h1><span aria-hidden="true">&mdash;&nbsp;</span>Serkan Durusoy</h1>
 </main>
-
 </body>
 </html>
